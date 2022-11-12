@@ -1,0 +1,13 @@
+# The Docker image that will be used to build your app
+---
+image: hrektts/mdbook
+pages:
+  stage: deploy
+  script: 
+    - mkdir .public
+    - mdbook build -d .public
+    - mv .public public
+  artifacts:
+    paths:
+      - public
+  environment: production

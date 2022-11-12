@@ -1,0 +1,10 @@
+[book]
+title = "Rust Assured"
+authors = ["John Lockwood", "Scott White"]
+language = "en"
+multilingual = false
+src = "src"
+
+[output.html]
+theme = "theme"
+
