@@ -22,4 +22,6 @@ Writing an article basically involves:
 
 ```mdbook serve --open``` as described above will run it on http://localhost:3000, with live update.  Easy peasy.
 
-To include a link in the sidebar, you can add it to src/SUMMARY.md
+To include a link in the sidebar, you can add it to src/SUMMARY.md.
+
+To do: John needs to write a CI/CD pipeline for main branch. Meantime he has a shell script so will do it manually when reviewing the PR.
