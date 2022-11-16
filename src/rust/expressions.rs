@@ -9,7 +9,7 @@ fn main() {
     println!("2 + 2 = {}", add(2,2));
     let addend = 4;
 
-    // Expressions can be returned from conditional
+    // Expressions can be returned from a conditional
     let result = {
         if addend > 3 {
             addend

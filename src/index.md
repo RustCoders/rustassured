@@ -7,7 +7,9 @@ But that's getting ahead of ourselves.
 This website is here and is not awesome and famous yet because you have to start somewhere.  So we started somewhere, with a web site built on [mdbook](https://rust-lang.github.io/mdBook/). 
 
 There are static site generators based on Rust too, and there's Wordpress and the rest of the blogging universe. But mdbook was handy. Either way, a static site is a nice cheap starting point.
+## Where's the Code for This?
 
+Yes, as a matter of fact, we _are_ looking for contributions!  Thanks for asking.  Here's the [RustAssured repository](https://github.com/RustCoders/rustassured).
 ## "Oh Look!"
 (said John).  You can [run Rust code](https://rust-lang.github.io/mdBook/format/mdbook.html#rust-playground) right here in the book by doing something like:
 
