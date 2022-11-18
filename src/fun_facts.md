@@ -16,6 +16,5 @@ Array type declarations and initializers are a bit different in Rust than in oth
 Expressions do not end in a semi-colon, and they return a value.  This can be used for function return values as well as interesting things like setting a value in a conditional expression.
 
 ```rust
-{{#include rust/expressions.rs}}
+{{#include ../examples/expressions.rs}}
 ``` 
-

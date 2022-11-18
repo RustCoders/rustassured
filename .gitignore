@@ -4,3 +4,4 @@ src/rust/*
 !src/rust/*.rs
 src/scratch
 deploy.sh
+target
