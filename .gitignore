@@ -1,4 +1,4 @@
-public/
+
 book/
 src/rust/*
 !src/rust/*.rs

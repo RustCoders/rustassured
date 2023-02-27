@@ -12,6 +12,31 @@
                 ]
             },
             "args": []
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug current test file",
+            "cargo": {
+                "args": [
+                    "test",                 
+                    "--test",
+                    "${fileBasenameNoExtension}"                    
+                ]
+            },
+            "args": []
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug all tests",
+            "cargo": {
+                "args": [
+                    "test"
+                ]
+            },
+            "args": []
         }  
+
     ]
 }
