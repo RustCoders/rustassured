@@ -4,7 +4,7 @@ This is the code for the [RustAssured](https://rustassured.com) site.
 It's currently written in [mdbook](https://rust-lang.github.io/mdBook/), a tool in Rust for writing books which forms the basis of the [Rust Book](https://github.com/rust-lang/book). 
 
 ## Getting started:
-* Install mdbook as documented here under [Build from source using Rust](https://rust-lang.github.io/mdBook/guide/installation.html#build-from-source-using-rust).
+* Install mdbook as documented here under [Build from source using Rust](https://rustc-lang.github.io/mdBook/guide/installation.html#build-from-source-using-rust).
 * To view the book:
 ```
 mdbook serve --open
