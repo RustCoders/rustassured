@@ -6,12 +6,13 @@
             "name": "Debug current examples file",
             "cargo": {
                 "args": [
-                    "run",
-                    "--example",
-                    "${fileBasenameNoExtension}"                    
+                    "build",
+                    "--example=${fileBasenameNoExtension}", 
+         	    "--package=unused"
                 ]
             },
-            "args": []
+            "args": [],
+	    "cwd": "${workspaceFolder}"
         },
         {
             "type": "lldb",
